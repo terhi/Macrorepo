@@ -1,0 +1,3 @@
+for i in `cat BsMCrun2.txt` 
+do lcg-cp -b -D srmv2 srm://srm-cms.cern.ch:8443/srm/managerv2?SFN=/castor/cern.ch/user/t/terhi/BuTestData/$i file:////tmp/terhi/BsMC/$i
+done
